@@ -37,7 +37,7 @@ source build/envsetup.sh
 ## 📱 Choose a Target Device
 
 ```bash
-lunch aosp_<device>-bp1a-user
+lunch aosp_<device>-bp4a-user
 ```
 > Replace `<device>` with your actual device codename.
 
@@ -83,6 +83,6 @@ You can customize your ROM build by including the following flags in your **devi
 
 ## 💬 Need Help?
 
-If you run into issues or have questions, feel free to open an issue on the [GitHub repo](https://github.com/AndroidOne-Experience/manifest/issues) or join the community chat (if available).
+If you run into issues or have questions, feel free to open an issue on the [GitHub repo](https://github.com/AndroidOne-Experience/manifest/issues)
 
 Happy Building! 🔧📱
