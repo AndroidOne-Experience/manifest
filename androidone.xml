@@ -34,11 +34,13 @@
 <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="AndroidOne" />
 <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AndroidOne" />
 <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk,sysui-studio" remote="AndroidOne" />
+<project path="frameworks/layoutlib" name="frameworks_layoutlib" groups="pdk-cw-fs,pdk-fs" remote="AndroidOne" />
 
 <!-- HARDWARE -->
 <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="AndroidOne" />
 
 <!-- PACKAGES/APPS -->
+<project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="AndroidOne" />
 <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="AndroidOne" />
 <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="AndroidOne" />
 <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="AndroidOne" />
